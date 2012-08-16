@@ -2,6 +2,12 @@
 
 class Pages extends CI_Controller {
 
+  public function main()
+  {
+    $this->load->helper('url');
+    $this->load->view('index');
+  }
+
   public function view($page = 'home')
   {
     if ( ! file_exists('application/views/pages/'.$page.'.php'))
