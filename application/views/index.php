@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -21,11 +20,8 @@
 			</div>
 			<div class="body">
 				<div id="featured">
-					<h3>Welcome To Yesl Hong's Home Page</h3>
-					<p>This website template has been designed by Free Website Templates for you, for free. You can 
-					replace all this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-					sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi 
-					enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
+                                        <h3>Welcome To Yesl Hong's Home Page</h3>
+                                        <p></p>
 					<input type="button" value="Read more" onClick="parent.location='blog.html'"/>
 				</div>
 				<ul class="blog">
@@ -34,7 +30,6 @@
 							<a href="blog.html"><img src="/images/pastries.jpg" alt=""/></a>
 							<p>This website template has been designed by Free Website Templates for you, for free. 
 							You can replace all this text with your own text.</p>
-							<a href="blog.html">Click to read more</a>
 						</div>
 					</li>
 					<li>
@@ -42,7 +37,6 @@
 							<a href="blog.html"><img src="/images/fruits.jpg" alt=""/></a>
 							<p>This website template has been designed by Free Website Templates for you, for free. 
 							You can replace all this text with your own text.</p>
-							<a href="blog.html">Click to read more</a>
 						</div>
 					</li>
 					<li>
@@ -50,7 +44,6 @@
 							<a href="blog.html"><img src="/images/cosmetics.jpg" alt=""/></a>
 							<p>This website template has been designed by Free Website Templates for you, for free. 
 							You can replace all this text with your own text.</p>
-							<a href="blog.html">Click to read more</a>
 						</div>
 					</li>
 				</ul>
@@ -71,4 +64,4 @@
 			</div>
 		</div>
 	</body>
-</html>  
+</html>  
