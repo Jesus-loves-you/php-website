@@ -14,7 +14,7 @@
 				<a href="index.html" id="logo"><img src=<?php echo base_url("/images/logo.gif"); ?> alt=""/></a>
 				<ul>
 					<li class="selected"><a href="index.html">Home</a></li>
-					<li><a href="about.html">Resume</a></li>
+                                        <li><a href="<?php echo base_url("/index.php/resume") ?>">Resume</a></li>
 					<li><a href="blog.html">Portfolio</a></li>
 				</ul>
 			</div>
