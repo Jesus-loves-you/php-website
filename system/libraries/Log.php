@@ -83,6 +83,7 @@ class CI_Log {
 			return FALSE;
 		}
 
+                date_default_timezone_set('America/New_York');
 		$filepath = $this->_log_path.'log-'.date('Y-m-d').'.php';
 		$message  = '';
 
@@ -96,6 +97,7 @@ class CI_Log {
 			return FALSE;
 		}
 
+                date_default_timezone_set('America/New_York');
 		$message .= $level.' '.(($level == 'INFO') ? ' -' : '-').' '.date($this->_date_fmt). ' --> '.$msg."\n";
 
 		flock($fp, LOCK_EX);
